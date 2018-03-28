@@ -1,0 +1,147 @@
+\documentclass [landscape,8pt,a4paper,twocolumn]{article}
+\title {NCTU\_TaNoShiI Codebook}
+\usepackage{parskip}
+\usepackage{xeCJK} 
+\setCJKmainfont{SourceHanSans-Regular}
+\setmonofont{Monaco}
+\usepackage {listings}
+\usepackage {color}
+\usepackage [left=1.0cm, right=1.0cm, top=2.0cm, bottom=0.5cm]{geometry}
+\definecolor {mygreen}{rgb}{0,0.6,0}
+\definecolor {mygray}{rgb}{0.5,0.5,0.5}
+\definecolor {mymauve}{rgb}{0.58,0,0.82}
+\usepackage{fancyheadings}
+\rhead{\thepage}
+\chead{初始化？陣列大小？\texttt{x, y}沒寫反？爆\texttt{int}？1-based？好，傳囉！}
+\lhead{NCTU\_TaNoShiI}
+\pagestyle{fancy}
+\cfoot{}
+\setlength{\headsep}{5pt}
+\setlength{\textheight}{540pt}
+
+\lstset {
+  backgroundcolor=\color{white},
+  basicstyle=\footnotesize\ttfamily,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  commentstyle=\color{mygreen},
+  deletekeywords={...},
+  escapeinside={\%*}{*)},
+  extendedchars=true,
+  frame=single,
+  keepspaces=true,
+  keywordstyle=\color{blue},
+  language=Octave,
+  morekeywords={*,...},
+  numbers=left,
+  numbersep=4pt,
+  numberstyle=\scriptsize\ttfamily\color{mygray},
+  rulecolor=\color{black},
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  stepnumber=1,
+  stringstyle=\color{mymauve},
+  tabsize=2,
+  xleftmargin=15pt,
+  framexleftmargin=15pt,
+  framexrightmargin=0pt,
+  framexbottommargin=0pt,
+  framextopmargin=0pt,
+}
+
+\begin {document}
+\thispagestyle{fancy}
+{ \Huge NCTU\_TaNoShiI}
+\tableofcontents
+
+\section{String}
+\subsection{KMP}
+\lstinputlisting [language=c++] {"code/String/KMP.cpp"}
+\subsection{AC Automaton}
+\lstinputlisting [language=c++] {"code/String/AC_Automaton.cpp"}
+\subsection{Suffix Array}
+\lstinputlisting [language=c++] {"code/String/Suffix_Array.cpp"}
+\subsection{BWT}
+\lstinputlisting [language=c++] {"code/String/BWT.cpp"}
+\subsection{Suffix Automaton}
+\lstinputlisting [language=c++] {"code/String/Suffix_Automaton.cpp"}
+\subsection{Z Algorithm}
+\lstinputlisting [language=c++] {"code/String/Z_Algorithm.cpp"}
+\section{Convolution}
+\subsection{FFT}
+\lstinputlisting [language=c++] {"code/Convolution/FFT.cpp"}
+\section{Java}
+\subsection{Big Integer}
+\lstinputlisting [language=java] {"code/Java/Big Integer.java"}
+\subsection{Prime}
+\lstinputlisting [language=java] {"code/Java/Prime.java"}
+\section{Geometry}
+\subsection{Fermat's Point}
+\lstinputlisting [language=c++] {"code/Geometry/Fermat's Point.cpp"}
+\subsection{Half Plane Intersection}
+\lstinputlisting [language=c++] {"code/Geometry/Half_plane_Intersection.cpp"}
+\subsection{Minimum Covering Circle}
+\lstinputlisting [language=c++] {"code/Geometry/Minimum_Covering_Circle.cpp"}
+\subsection{Geometry}
+\lstinputlisting [language=c++] {"code/Geometry/Geometry.cpp"}
+\subsection{K-closet Pair}
+\lstinputlisting [language=c++] {"code/Geometry/K-closet Pair.cpp"}
+\section{Graph}
+\subsection{SCC (Tarjan)}
+\lstinputlisting [language=c++] {"code/Graph/SCC_(Tarjan).cpp"}
+\subsection{Maximun Clique}
+\lstinputlisting [language=c++] {"code/Graph/maximun_clique.cpp"}
+\subsection{2-SAT}
+\lstinputlisting [language=c++] {"code/Graph/2-SAT.cpp"}
+\subsection{Heavy Light Decomposition}
+\lstinputlisting [language=c++] {"code/Graph/Heavy_Light_Decomposition.cpp"}
+\subsection{SCC (Kosaraju)}
+\lstinputlisting [language=c++] {"code/Graph/SCC_(Kosaraju).cpp"}
+\subsection{Articulation Point}
+\lstinputlisting [language=c++] {"code/Graph/Articulation Point.cpp"}
+\subsection{BCC}
+\lstinputlisting [language=c++] {"code/Graph/BCC.cpp"}
+\section{Data Structure}
+\subsection{K-D Tree (Insert)}
+\lstinputlisting [language=c++] {"code/Data Structure/K-D Tree (Insert).cpp"}
+\subsection{Treap}
+\lstinputlisting [language=c++] {"code/Data Structure/Treap.cpp"}
+\subsection{Segment Tree (Lazy)}
+\lstinputlisting [language=c++] {"code/Data Structure/segment_tree (Lazy).cpp"}
+\section{Matching}
+\subsection{Stable Marriage}
+\lstinputlisting [language=c++] {"code/Matching/Stable Marriage.cpp"}
+\subsection{Blossom}
+\lstinputlisting [language=c++] {"code/Matching/Blossom.cpp"}
+\subsection{Min Cost Flow}
+\lstinputlisting [language=c++] {"code/Matching/Min Cost Flow.cpp"}
+\subsection{Dinic}
+\lstinputlisting [language=c++] {"code/Matching/Dinic.cpp"}
+\subsection{KM}
+\lstinputlisting [language=c++] {"code/Matching/KM.cpp"}
+\subsection{Bipartite Matching}
+\lstinputlisting [language=c++] {"code/Matching/Bipartite Matching.cpp"}
+\section{Mathematics}
+\subsection{Extended GCD}
+\lstinputlisting [language=c++] {"code/Mathematics/Extended GCD.cpp"}
+\subsection{Sprague-Grundy}
+\lstinputlisting [language=c++] {"code/Mathematics/Sprague-Grundy.cpp"}
+\subsection{Lucas's Theorem}
+\lstinputlisting [language=python] {"code/Mathematics/Lucas's Theorem.py"}
+\subsection{Pollard's Rho Algorithm}
+\lstinputlisting [language=c++] {"code/Mathematics/Pollard's rho algorithm.cpp"}
+\subsection{Gauss-Jordan Elimination}
+\lstinputlisting [language=c++] {"code/Mathematics/Gauss-Jordan_Elimination.cpp"}
+\subsection{Miller-Rabin}
+\lstinputlisting [language=c++] {"code/Mathematics/Miller-Rabin.cpp"}
+\section{Building Environment}
+\subsection{Vimrc}
+\lstinputlisting [language=bash] {"code/Building Environment/vimrc"}
+\subsection{Print}
+\lstinputlisting [language=bash] {"code/Building Environment/print.sh"}
+
+\input{note.tex}
+\end{document}
+
