@@ -1,0 +1,642 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.9.20)  2 OCT 2018 22:00
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**note.tex
+(./note.tex
+LaTeX2e <2018-04-01> patch level 5
+! Undefined control sequence.
+l.1 \section
+            {無權邊的生成樹個數 Kirchhoff's Theorem}
+? q
+OK, entering \batchmode...
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{無
+              權邊的生成樹個數 Kirchhoff's Theorem}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 無 in font nullfont!
+Missing character: There is no 權 in font nullfont!
+Missing character: There is no 邊 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 生 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 樹 in font nullfont!
+Missing character: There is no 個 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 定 in font nullfont!
+Missing character: There is no 義 in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 陣 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 點 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 邊 in font nullfont!
+Missing character: There is no 數 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 若 in font nullfont!
+Missing character: There is no 點 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 邊 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 小 in font nullfont!
+Missing character: There is no 點 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 大 in font nullfont!
+Missing character: There is no 點 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 否 in font nullfont!
+Missing character: There is no 則 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 證 in font nullfont!
+Missing character: There is no 明 in font nullfont!
+Missing character: There is no 省 in font nullfont!
+Missing character: There is no 略 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 令 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 他 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 種 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 負 in font nullfont!
+Missing character: There is no 號 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 陣 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 取 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 陣 in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 結 in font nullfont!
+Missing character: There is no 論 in font nullfont!
+Missing character: There is no ： in font nullfont!
+Missing character: There is no 做 in font nullfont!
+Missing character: There is no 取 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 陣 in font nullfont!
+Missing character: There is no 算 in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 即 in font nullfont!
+Missing character: There is no 為 in font nullfont!
+Missing character: There is no 所 in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 。 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 除 in font nullfont!
+Missing character: There is no 去 in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 行 in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 一 in font nullfont!
+Missing character: There is no 列 in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no ) in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--7
+[]
+ []
+
+
+Overfull \hbox (13.78015pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 n \OMS/cmsy/m/n/10 ^^B
+ []
+
+
+Overfull \hbox (8.78014pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 m$
+ []
+
+
+Overfull \hbox (18.51382pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 E \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (28.48389pt too wide) in paragraph at lines 1--7
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 )$$\OML/cmm/m/it/10 n$
+ []
+
+
+Overfull \hbox (8.78014pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 m$
+ []
+
+
+Overfull \hbox (3.44513pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 i$
+ []
+
+
+Overfull \hbox (4.69049pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 j$
+ []
+
+
+Overfull \hbox (3.44513pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 i$
+ []
+
+
+Overfull \hbox (25.25925pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 1--7
+\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (3.44513pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 i$
+ []
+
+
+Overfull \hbox (25.25925pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 1--7
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1$
+ []
+
+
+Overfull \hbox (25.25925pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 a[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 1--7
+\OT1/cmr/m/n/10 0$ 
+ []
+
+
+Overfull \hbox (40.54959pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 E\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 E[]\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 Q$
+ []
+
+
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 Q$
+ []
+
+
+Overfull \hbox (29.71637pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (7.90555pt too wide) in paragraph at lines 1--7
+\OML/cmm/m/it/10 Q$
+ []
+
+! Undefined control sequence.
+l.8 \section
+            {monge}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \section{m
+              onge}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 8--12
+[]
+ []
+
+
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 i \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (17.20552pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 i[] <
+ []
+
+
+Overfull \hbox (15.246pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 j \OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (7.89537pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 j[]$ 
+ []
+
+
+Overfull \hbox (36.91577pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j\OT1/cmr/m/n/10 ) +
+ []
+
+
+Overfull \hbox (46.10324pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i[]; j[]\OT1/cmr/m/n/10 ) \
+OMS/cmsy/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (40.12065pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i[]; j\OT1/cmr/m/n/10 ) +
+ []
+
+
+Overfull \hbox (32.34285pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 m\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (29.76758pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (27.22223pt too wide) in paragraph at lines 8--12
+\OT1/cmr/m/n/10 1) \OML/cmm/m/it/10 <\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (44.21199pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i; j\OT1/cmr/m/n/10 ) \OML/
+cmm/m/it/10 <\OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (20.63268pt too wide) in paragraph at lines 8--12
+\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (18.02382pt too wide) in paragraph at lines 8--12
+\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; j\OT1/cmr/m/n/10 )$ 
+ []
+
+! Undefined control sequence.
+l.13 \section
+             {四心}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \section{四
+               心}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 四 in font nullfont!
+Missing character: There is no 心 in font nullfont!
+Missing character: There is no 外 in font nullfont!
+Missing character: There is no 心 in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 內 in font nullfont!
+Missing character: There is no 心 in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 垂 in font nullfont!
+Missing character: There is no 心 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 心 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--19
+[]
+ []
+
+
+Overfull \hbox (68.34343pt too wide) in paragraph at lines 13--19
+[]$ 
+ []
+
+! Undefined control sequence.
+l.20 \section
+             {Runge-Kutta}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \section{R
+               unge-Kutta}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no R in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 20--26
+[]
+ []
+
+
+Overfull \hbox (31.0267pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (18.12395pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (28.44061pt too wide) in paragraph at lines 20--26
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.46999pt too wide) in paragraph at lines 20--26
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.46999pt too wide) in paragraph at lines 20--26
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (13.58107pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 k[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (20.24768pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (37.59506pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[]; y[]\OT1/cmr/m/n/10 )$ 
+
+ []
+
+
+Overfull \hbox (20.24768pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (26.6934pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (29.6501pt too wide) in paragraph at lines 20--26
+[]\OML/cmm/m/it/10 ; y[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (20.66281pt too wide) in paragraph at lines 20--26
+[]\OML/cmm/m/it/10 k[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (20.24768pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (26.6934pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (29.6501pt too wide) in paragraph at lines 20--26
+[]\OML/cmm/m/it/10 ; y[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (20.66281pt too wide) in paragraph at lines 20--26
+[]\OML/cmm/m/it/10 k[]\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (20.24768pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (26.6934pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (28.32994pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 h; y[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (19.34265pt too wide) in paragraph at lines 20--26
+\OML/cmm/m/it/10 hk[]\OT1/cmr/m/n/10 )$ 
+ []
+
+! Undefined control sequence.
+l.27 \section
+             {Householder Matrix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \section{H
+               ouseholder Matrix}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no H in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no x in font nullfont!
+)
+! Emergency stop.
+<*> note.tex
+            
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 492962
+ 58 string characters out of 6139097
+ 66852 words of memory out of 5000000
+ 4116 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,3n,12p,151b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.

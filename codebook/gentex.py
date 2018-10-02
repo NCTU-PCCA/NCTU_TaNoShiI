@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
-doc_class = '\documentclass [landscape,8pt,a4paper,twocolumn]{article}'
+doc_class = '\documentclass [8pt,a4paper,twocolumn]{article}'
 
 head = '''\\title {NCTU\\_TaNoShiI Codebook}
 \\usepackage{parskip}
@@ -20,7 +20,7 @@ head = '''\\title {NCTU\\_TaNoShiI Codebook}
 \\pagestyle{fancy}
 \\cfoot{}
 \\setlength{\\headsep}{5pt}
-\\setlength{\\textheight}{540pt}
+\\setlength{\\textheight}{780pt}
 '''
 
 lstset = '''\\lstset {

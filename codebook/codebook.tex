@@ -1,4 +1,4 @@
-\documentclass [landscape,8pt,a4paper,twocolumn]{article}
+\documentclass [8pt,a4paper,twocolumn]{article}
 \title {NCTU\_TaNoShiI Codebook}
 \usepackage{parskip}
 \usepackage{xeCJK} 
@@ -17,7 +17,7 @@
 \pagestyle{fancy}
 \cfoot{}
 \setlength{\headsep}{5pt}
-\setlength{\textheight}{540pt}
+\setlength{\textheight}{780pt}
 
 \lstset {
   backgroundcolor=\color{white},
@@ -57,90 +57,112 @@
 \tableofcontents
 
 \section{String}
-\subsection{KMP}
-\lstinputlisting [language=c++] {"code/String/KMP.cpp"}
-\subsection{AC Automaton}
-\lstinputlisting [language=c++] {"code/String/AC_Automaton.cpp"}
-\subsection{Suffix Array}
-\lstinputlisting [language=c++] {"code/String/Suffix_Array.cpp"}
-\subsection{BWT}
-\lstinputlisting [language=c++] {"code/String/BWT.cpp"}
-\subsection{Suffix Automaton}
-\lstinputlisting [language=c++] {"code/String/Suffix_Automaton.cpp"}
-\subsection{Z Algorithm}
-\lstinputlisting [language=c++] {"code/String/Z_Algorithm.cpp"}
-\section{Convolution}
+\subsection{AC}
+\lstinputlisting [language=c++] {"code/String/AC.cpp"}
+\subsection{SuffixAutomata}
+\lstinputlisting [language=c++] {"code/String/suffixAutomata.cpp"}
+\subsection{MinLexicographicalRotate}
+\lstinputlisting [language=c++] {"code/String/MinLexicographicalRotate.cpp"}
+\subsection{ZvaluePalindromes}
+\lstinputlisting [language=c++] {"code/String/ZvaluePalindromes.cpp"}
+\subsection{SuffixArray}
+\lstinputlisting [language=c++] {"code/String/suffixArray.cpp"}
+\subsection{Zvalue}
+\lstinputlisting [language=c++] {"code/String/Zvalue.cpp"}
+\section{Math}
+\subsection{MillerRabin}
+\lstinputlisting [language=c++] {"code/math/MillerRabin.cpp"}
 \subsection{FFT}
-\lstinputlisting [language=c++] {"code/Convolution/FFT.cpp"}
-\section{Java}
-\subsection{Big Integer}
-\lstinputlisting [language=java] {"code/Java/Big Integer.java"}
-\subsection{Prime}
-\lstinputlisting [language=java] {"code/Java/Prime.java"}
+\lstinputlisting [language=c++] {"code/math/FFT.cpp"}
+\subsection{Extgcd}
+\lstinputlisting [language=c++] {"code/math/extgcd.cpp"}
+\subsection{Pollard’sRho}
+\lstinputlisting [language=c++] {"code/math/Pollard’sRho.cpp"}
+\section{Other}
+\subsection{Annealing}
+\lstinputlisting [language=c++] {"code/Other/annealing.cpp"}
+\subsection{DLX}
+\lstinputlisting [language=c++] {"code/Other/DLX.cpp"}
+\subsection{MahattanMST}
+\lstinputlisting [language=c++] {"code/Other/MahattanMST.cpp"}
+\subsection{MoOnTree}
+\lstinputlisting [language=c++] {"code/Other/MoOnTree.cpp"}
+\subsection{Det}
+\lstinputlisting [language=c++] {"code/Other/det.cpp"}
+\section{DataStructure}
+\subsection{PersistentTreap}
+\lstinputlisting [language=c++] {"code/DataStructure/persistentTreap.cpp"}
+\subsection{Pbds Kth}
+\lstinputlisting [language=c++] {"code/DataStructure/pbds_kth.cpp"}
+\subsection{PbdsHeap}
+\lstinputlisting [language=c++] {"code/DataStructure/pbdsHeap.cpp"}
+\subsection{Heavy-LightDecomposition}
+\lstinputlisting [language=c++] {"code/DataStructure/Heavy-LightDecomposition.cpp"}
+\subsection{KDtree}
+\lstinputlisting [language=c++] {"code/DataStructure/KDtree.cpp"}
+\section{Default}
+\subsection{Default}
+\lstinputlisting [language=c++] {"code/Default/Default.cpp"}
+\section{Flow}
+\subsection{Minimunwieghtmatchclique}
+\lstinputlisting [language=c++] {"code/Flow/Minimunwieghtmatchclique.cpp"}
+\subsection{CostFlow}
+\lstinputlisting [language=c++] {"code/Flow/CostFlow.cpp"}
+\subsection{MincutTree}
+\lstinputlisting [language=c++] {"code/Flow/MincutTree.cpp"}
+\subsection{Dinic}
+\lstinputlisting [language=c++] {"code/Flow/Dinic.cpp"}
+\subsection{GeneralGraphmatch}
+\lstinputlisting [language=c++] {"code/Flow/GeneralGraphmatch.cpp"}
+\subsection{KM}
+\lstinputlisting [language=c++] {"code/Flow/KM.cpp"}
+\subsection{SWmincut}
+\lstinputlisting [language=c++] {"code/Flow/SWmincut.cpp"}
 \section{Geometry}
+\subsection{Circleintersection}
+\lstinputlisting [language=c++] {"code/Geometry/Circleintersection.cpp"}
 \subsection{Fermat's Point}
 \lstinputlisting [language=c++] {"code/Geometry/Fermat's Point.cpp"}
-\subsection{Half Plane Intersection}
-\lstinputlisting [language=c++] {"code/Geometry/Half_plane_Intersection.cpp"}
-\subsection{Minimum Covering Circle}
-\lstinputlisting [language=c++] {"code/Geometry/Minimum_Covering_Circle.cpp"}
-\subsection{Geometry}
-\lstinputlisting [language=c++] {"code/Geometry/Geometry.cpp"}
+\subsection{Pointoperators}
+\lstinputlisting [language=c++] {"code/Geometry/Pointoperators.cpp"}
+\subsection{3DConvexHull}
+\lstinputlisting [language=c++] {"code/Geometry/3DConvexHull.cpp"}
+\subsection{Halfplaneintersection}
+\lstinputlisting [language=c++] {"code/Geometry/Halfplaneintersection.cpp"}
+\subsection{ConvexHull}
+\lstinputlisting [language=c++] {"code/Geometry/ConvexHull.cpp"}
+\subsection{Triangulation}
+\lstinputlisting [language=c++] {"code/Geometry/triangulation.cpp"}
 \subsection{K-closet Pair}
 \lstinputlisting [language=c++] {"code/Geometry/K-closet Pair.cpp"}
+\subsection{MCC}
+\lstinputlisting [language=c++] {"code/Geometry/MCC.cpp"}
+\subsection{LineIntersection}
+\lstinputlisting [language=c++] {"code/Geometry/lineIntersection.cpp"}
+\subsection{PointToLine}
+\lstinputlisting [language=c++] {"code/Geometry/pointToLine.cpp"}
+\section{JAVA}
+\subsection{Big Integer}
+\lstinputlisting [language=java] {"code/JAVA/Big Integer.java"}
+\subsection{Prime}
+\lstinputlisting [language=java] {"code/JAVA/Prime.java"}
 \section{Graph}
-\subsection{SCC (Tarjan)}
-\lstinputlisting [language=c++] {"code/Graph/SCC_(Tarjan).cpp"}
-\subsection{Maximun Clique}
-\lstinputlisting [language=c++] {"code/Graph/maximun_clique.cpp"}
-\subsection{2-SAT}
-\lstinputlisting [language=c++] {"code/Graph/2-SAT.cpp"}
-\subsection{Heavy Light Decomposition}
-\lstinputlisting [language=c++] {"code/Graph/Heavy_Light_Decomposition.cpp"}
-\subsection{SCC (Kosaraju)}
-\lstinputlisting [language=c++] {"code/Graph/SCC_(Kosaraju).cpp"}
-\subsection{Articulation Point}
-\lstinputlisting [language=c++] {"code/Graph/Articulation Point.cpp"}
-\subsection{BCC}
-\lstinputlisting [language=c++] {"code/Graph/BCC.cpp"}
-\section{Data Structure}
-\subsection{K-D Tree (Insert)}
-\lstinputlisting [language=c++] {"code/Data Structure/K-D Tree (Insert).cpp"}
-\subsection{Treap}
-\lstinputlisting [language=c++] {"code/Data Structure/Treap.cpp"}
-\subsection{Segment Tree (Lazy)}
-\lstinputlisting [language=c++] {"code/Data Structure/segment_tree (Lazy).cpp"}
-\section{Matching}
+\subsection{MMC}
+\lstinputlisting [language=c++] {"code/Graph/MMC.cpp"}
+\subsection{DMST}
+\lstinputlisting [language=c++] {"code/Graph/DMST.cpp"}
+\subsection{SCC}
+\lstinputlisting [language=c++] {"code/Graph/SCC.cpp"}
+\subsection{GeneralGraphMaximunValueMatch}
+\lstinputlisting [language=c++] {"code/Graph/GeneralGraphMaximunValueMatch.cpp"}
 \subsection{Stable Marriage}
-\lstinputlisting [language=c++] {"code/Matching/Stable Marriage.cpp"}
-\subsection{Blossom}
-\lstinputlisting [language=c++] {"code/Matching/Blossom.cpp"}
-\subsection{Min Cost Flow}
-\lstinputlisting [language=c++] {"code/Matching/Min Cost Flow.cpp"}
-\subsection{Dinic}
-\lstinputlisting [language=c++] {"code/Matching/Dinic.cpp"}
-\subsection{KM}
-\lstinputlisting [language=c++] {"code/Matching/KM.cpp"}
-\subsection{Bipartite Matching}
-\lstinputlisting [language=c++] {"code/Matching/Bipartite Matching.cpp"}
-\section{Mathematics}
-\subsection{Extended GCD}
-\lstinputlisting [language=c++] {"code/Mathematics/Extended GCD.cpp"}
-\subsection{Sprague-Grundy}
-\lstinputlisting [language=c++] {"code/Mathematics/Sprague-Grundy.cpp"}
-\subsection{Lucas's Theorem}
-\lstinputlisting [language=python] {"code/Mathematics/Lucas's Theorem.py"}
-\subsection{Pollard's Rho Algorithm}
-\lstinputlisting [language=c++] {"code/Mathematics/Pollard's rho algorithm.cpp"}
-\subsection{Gauss-Jordan Elimination}
-\lstinputlisting [language=c++] {"code/Mathematics/Gauss-Jordan_Elimination.cpp"}
-\subsection{Miller-Rabin}
-\lstinputlisting [language=c++] {"code/Mathematics/Miller-Rabin.cpp"}
-\section{Building Environment}
-\subsection{Vimrc}
-\lstinputlisting [language=bash] {"code/Building Environment/vimrc"}
-\subsection{Print}
-\lstinputlisting [language=bash] {"code/Building Environment/print.sh"}
+\lstinputlisting [language=c++] {"code/Graph/Stable Marriage.cpp"}
+\subsection{BCCvertex}
+\lstinputlisting [language=c++] {"code/Graph/BCCvertex.cpp"}
+\subsection{MaxClique}
+\lstinputlisting [language=c++] {"code/Graph/MaxClique.cpp"}
+\subsection{BCCedge}
+\lstinputlisting [language=c++] {"code/Graph/BCCedge.cpp"}
 
 \input{note.tex}
 \end{document}
