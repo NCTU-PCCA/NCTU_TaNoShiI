@@ -13,6 +13,8 @@ palindromic tree.
 
 planar graph
 
+DP optimize
+
 ### unvalidate
 
 SuffixAutomata
