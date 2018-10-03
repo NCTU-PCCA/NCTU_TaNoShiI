@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.9.20)  3 OCT 2018 21:17
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.9.20)  3 OCT 2018 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1019,66 +1019,70 @@ File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
 * 
 * Try to use `\setCJKmonofont[...]{...}' to define it.
 *************************************************
-(./code/String/AC.cpp [1
+(./code/Basic/Default.cpp) (./code/DataStructure/persistentTreap.cpp [1
 
-]) (./code/String/suffixAutomata.cpp)
-(./code/String/MinLexicographicalRotate.cpp [2])
-(./code/String/ZvaluePalindromes.cpp) (./code/String/suffixArray.cpp)
-(./code/String/Zvalue.cpp) (./code/math/MillerRabin.cpp) (./code/math/FFT.cpp
-[3]) (./code/math/extgcd.cpp) (./code/math/Pollard’sRho.cpp)
-(./code/Other/annealing.cpp) (./code/Other/DLX.cpp [4])
-(./code/Other/MahattanMST.cpp
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5])
-(./code/Other/MoOnTree.cpp) (./code/Other/det.cpp)
-(./code/DataStructure/persistentTreap.cpp [6])
+])
 (./code/DataStructure/pbds_kth.cpp) (./code/DataStructure/pbdsHeap.cpp)
-(./code/DataStructure/Heavy-LightDecomposition.cpp [7])
-(./code/DataStructure/KDtree.cpp)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [8]
-(./code/Default/Default.cpp) (./code/Flow/Minimunwieghtmatchclique.cpp)
-(./code/Flow/CostFlow.cpp [9]) (./code/Flow/MincutTree.cpp)
-(./code/Flow/Dinic.cpp) (./code/Flow/GeneralGraphmatch.cpp [10])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(./code/Flow/KM.cpp) (./code/Flow/SWmincut.cpp [11])
+(./code/DataStructure/Heavy-LightDecomposition.cpp [2])
+(./code/DataStructure/KDtree.cpp) (./code/Flow/Minimunwieghtmatchclique.cpp
+[3]) (./code/Flow/CostFlow.cpp) (./code/Flow/MincutTree.cpp [4])
+(./code/Flow/Dinic.cpp) (./code/Flow/GeneralGraphmatch.cpp [5])
+(./code/Flow/KM.cpp) (./code/Flow/SWmincut.cpp [6])
 (./code/Geometry/Circleintersection.cpp) (./code/Geometry/Fermat's Point.cpp)
-(./code/Geometry/Pointoperators.cpp [12]) (./code/Geometry/3DConvexHull.cpp)
-(./code/Geometry/Halfplaneintersection.cpp [13])
-(./code/Geometry/ConvexHull.cpp) (./code/Geometry/triangulation.cpp
+(./code/Geometry/Pointoperators.cpp) (./code/Geometry/3DConvexHull.cpp [7])
+(./code/Geometry/Halfplaneintersection.cpp) (./code/Geometry/ConvexHull.cpp
+[8]) (./code/Geometry/triangulation.cpp) (./code/Geometry/K-closet Pair.cpp
+[9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
-(./code/Geometry/K-closet Pair.cpp) (./code/Geometry/MCC.cpp [15])
-(./code/Geometry/lineIntersection.cpp) (./code/Geometry/pointToLine.cpp)
+)
+(./code/Geometry/MCC.cpp) (./code/Geometry/lineIntersection.cpp)
+(./code/Geometry/pointToLine.cpp [10]) (./code/Graph/MMC.cpp)
+(./code/Graph/SomeTheroem.cpp) (./code/Graph/DMST.cpp [11])
+(./code/Graph/SCC.cpp) (./code/Graph/GeneralGraphMaximunValueMatch.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./code/Graph/Stable Marriage.cpp [13]) (./code/Graph/BCCvertex.cpp)
+(./code/Graph/MaxClique.cpp [14]) (./code/Graph/BCCedge.cpp)
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
-(./code/JAVA/Big Integer.java) (./code/JAVA/Prime.java) (./code/Graph/MMC.cpp
-[16]) (./code/Graph/DMST.cpp) (./code/Graph/SCC.cpp)
-(./code/Graph/GeneralGraphMaximunValueMatch.cpp [17]
+(./code/JAVA/Big Integer.java) (./code/JAVA/Prime.java)
+(./code/Other/annealing.cpp [15]) (./code/Other/DLX.cpp) [16]
+(./code/Other/MahattanMST.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+)
+(./code/Other/MoOnTree.cpp [17]) (./code/Other/det.cpp) (./code/String/AC.cpp)
+(./code/String/suffixAutomata.cpp [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
-(./code/Graph/Stable Marriage.cpp) (./code/Graph/BCCvertex.cpp [19])
-(./code/Graph/MaxClique.cpp) (./code/Graph/BCCedge.cpp) [20] (./note.tex)
-[21
+)
+(./code/String/MinLexicographicalRotate.cpp)
+(./code/String/ZvaluePalindromes.cpp) (./code/String/suffixArray.cpp [19])
+(./code/String/Zvalue.cpp) (./code/math/MillerRabin.cpp)
+(./code/math/Theorem.cpp
+Overfull \hbox (13.70149pt too wide) in paragraph at lines 5--6
+[][][][][][] 
+ []
 
-] (./codebook.aux) ) 
+) (./code/math/prime.cpp) (./code/math/FFT.cpp [20]) (./code/math/extgcd.cpp)
+(./code/math/Pollard’sRho.cpp) (./note.tex
+Underfull \vbox (badness 1852) has occurred while \output is active []
+
+) [21]
+(./codebook.aux) ) 
 Here is how much of TeX's memory you used:
- 16314 strings out of 492962
- 340953 string characters out of 6139097
- 1452102 words of memory out of 5000000
+ 16322 strings out of 492962
+ 341103 string characters out of 6139097
+ 1430688 words of memory out of 5000000
  20090 multiletter control sequences out of 15000+600000
  532514 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 45i,12n,67p,386b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,67p,386b,1764s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on codebook.pdf (21 pages).

@@ -97,6 +97,8 @@ print(doc_class)
 print(head)
 print(lstset)
 print(doc_head)
+
+sections = []
 for root, dirs, files in os.walk('code'):
   if root.find('.svn') >= 0:
     continue
@@ -105,6 +107,13 @@ for root, dirs, files in os.walk('code'):
     continue
   if escape(secname) == 'code':
     continue
+  sections.append((secname, files[0:]))
+
+
+sections.sort(key=lambda x: x[0])
+
+
+for secname, files in sections:
   section_name = capitalize(secname.replace('_', ' '))
   print(f'\\section{{{section_name}}}')
   for name in files:
