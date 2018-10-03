@@ -1,3 +1,4 @@
+/*
 General graph
 |maximum independent set|+|minimum vertex cover|=|V|
 |maximum independent edge|+|minimum edge cover|=|V|
@@ -11,3 +12,4 @@ Bipartite graph
 |Maximun Independent edge|+|Minimun edge cover|=|V|
           ||                      || 
          |V|                     |V|
+*/
