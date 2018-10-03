@@ -22,8 +22,8 @@
 \contentsline {subsection}{\numberline {4.3}PbdsHeap}{7}
 \contentsline {subsection}{\numberline {4.4}Heavy-LightDecomposition}{7}
 \contentsline {subsection}{\numberline {4.5}KDtree}{8}
-\contentsline {section}{\numberline {5}Default}{8}
-\contentsline {subsection}{\numberline {5.1}Default}{8}
+\contentsline {section}{\numberline {5}Default}{9}
+\contentsline {subsection}{\numberline {5.1}Default}{9}
 \contentsline {section}{\numberline {6}Flow}{9}
 \contentsline {subsection}{\numberline {6.1}Minimunwieghtmatchclique}{9}
 \contentsline {subsection}{\numberline {6.2}CostFlow}{9}
@@ -42,7 +42,7 @@
 \contentsline {subsection}{\numberline {7.7}Triangulation}{14}
 \contentsline {subsection}{\numberline {7.8}K-closet Pair}{15}
 \contentsline {subsection}{\numberline {7.9}MCC}{15}
-\contentsline {subsection}{\numberline {7.10}LineIntersection}{15}
+\contentsline {subsection}{\numberline {7.10}LineIntersection}{16}
 \contentsline {subsection}{\numberline {7.11}PointToLine}{16}
 \contentsline {section}{\numberline {8}JAVA}{16}
 \contentsline {subsection}{\numberline {8.1}Big Integer}{16}
@@ -56,7 +56,7 @@
 \contentsline {subsection}{\numberline {9.6}BCCvertex}{19}
 \contentsline {subsection}{\numberline {9.7}MaxClique}{20}
 \contentsline {subsection}{\numberline {9.8}BCCedge}{20}
-\contentsline {section}{\numberline {10}無權邊的生成樹個數 Kirchhoff's Theorem}{20}
+\contentsline {section}{\numberline {10}無權邊的生成樹個數 Kirchhoff's Theorem}{21}
 \contentsline {section}{\numberline {11}monge}{21}
 \contentsline {section}{\numberline {12}四心}{21}
 \contentsline {section}{\numberline {13}Runge-Kutta}{21}

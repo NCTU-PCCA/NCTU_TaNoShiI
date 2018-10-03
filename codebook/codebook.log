@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.9.20)  2 OCT 2018 22:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2018.9.20)  3 OCT 2018 21:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,20 +1035,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./code/DataStructure/persistentTreap.cpp [6])
 (./code/DataStructure/pbds_kth.cpp) (./code/DataStructure/pbdsHeap.cpp)
 (./code/DataStructure/Heavy-LightDecomposition.cpp [7])
-(./code/DataStructure/KDtree.cpp) (./code/Default/Default.cpp [8])
-(./code/Flow/Minimunwieghtmatchclique.cpp) (./code/Flow/CostFlow.cpp [9])
-(./code/Flow/MincutTree.cpp) (./code/Flow/Dinic.cpp)
-(./code/Flow/GeneralGraphmatch.cpp [10]) (./code/Flow/KM.cpp)
-(./code/Flow/SWmincut.cpp [11]) (./code/Geometry/Circleintersection.cpp)
-(./code/Geometry/Fermat's Point.cpp) (./code/Geometry/Pointoperators.cpp
-[12]) (./code/Geometry/3DConvexHull.cpp)
+(./code/DataStructure/KDtree.cpp)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+(./code/Default/Default.cpp) (./code/Flow/Minimunwieghtmatchclique.cpp)
+(./code/Flow/CostFlow.cpp [9]) (./code/Flow/MincutTree.cpp)
+(./code/Flow/Dinic.cpp) (./code/Flow/GeneralGraphmatch.cpp [10])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./code/Flow/KM.cpp) (./code/Flow/SWmincut.cpp [11])
+(./code/Geometry/Circleintersection.cpp) (./code/Geometry/Fermat's Point.cpp)
+(./code/Geometry/Pointoperators.cpp [12]) (./code/Geometry/3DConvexHull.cpp)
 (./code/Geometry/Halfplaneintersection.cpp [13])
 (./code/Geometry/ConvexHull.cpp) (./code/Geometry/triangulation.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14])
-(./code/Geometry/K-closet Pair.cpp) (./code/Geometry/MCC.cpp)
-(./code/Geometry/lineIntersection.cpp [15]) (./code/Geometry/pointToLine.cpp)
+(./code/Geometry/K-closet Pair.cpp) (./code/Geometry/MCC.cpp [15])
+(./code/Geometry/lineIntersection.cpp) (./code/Geometry/pointToLine.cpp)
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2018/09/02 1.7 listings language file
 )
@@ -1062,17 +1068,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18])
 (./code/Graph/Stable Marriage.cpp) (./code/Graph/BCCvertex.cpp [19])
-(./code/Graph/MaxClique.cpp) (./code/Graph/BCCedge.cpp) (./note.tex [20])
+(./code/Graph/MaxClique.cpp) (./code/Graph/BCCedge.cpp) [20] (./note.tex)
 [21
 
 ] (./codebook.aux) ) 
 Here is how much of TeX's memory you used:
  16314 strings out of 492962
  340953 string characters out of 6139097
- 1445460 words of memory out of 5000000
+ 1452102 words of memory out of 5000000
  20090 multiletter control sequences out of 15000+600000
  532514 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 46i,12n,67p,386b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,67p,386b,1882s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on codebook.pdf (21 pages).
