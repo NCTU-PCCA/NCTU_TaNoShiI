@@ -10,6 +10,9 @@ FWT HDU5909 CF662C
 linear program ASC13 C
 
 palindromic tree.
+
+planar graph
+
 ### unvalidate
 
 SuffixAutomata
