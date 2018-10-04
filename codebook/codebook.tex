@@ -18,6 +18,9 @@
 \cfoot{}
 \setlength{\headsep}{5pt}
 \setlength{\textheight}{780pt}
+\usepackage{titlesec}
+\titlespacing*{\section} {0pt}{0ex minus 2ex}{0pt}
+\titlespacing*{\subsection} {0pt}{0ex minus 2ex}{0pt}
 
 \lstset {
   backgroundcolor=\color{white},
@@ -57,8 +60,12 @@
 \tableofcontents
 
 \section{Basic}
+\subsection{Vimrc}
+\lstinputlisting [language=bash] {"code/Basic/vimrc"}
 \subsection{Default}
 \lstinputlisting [language=c++] {"code/Basic/Default.cpp"}
+\subsection{Print}
+\lstinputlisting [language=bash] {"code/Basic/print.sh"}
 \section{DataStructure}
 \subsection{PersistentTreap}
 \lstinputlisting [language=c++] {"code/DataStructure/persistentTreap.cpp"}
@@ -70,6 +77,8 @@
 \lstinputlisting [language=c++] {"code/DataStructure/Heavy-LightDecomposition.cpp"}
 \subsection{KDtree}
 \lstinputlisting [language=c++] {"code/DataStructure/KDtree.cpp"}
+\subsection{LCT}
+\lstinputlisting [language=c++] {"code/DataStructure/LCT.cpp"}
 \section{Flow}
 \subsection{Minimunwieghtmatchclique}
 \lstinputlisting [language=c++] {"code/Flow/Minimunwieghtmatchclique.cpp"}
@@ -109,10 +118,14 @@
 \subsection{PointToLine}
 \lstinputlisting [language=c++] {"code/Geometry/pointToLine.cpp"}
 \section{Graph}
+\subsection{Planar}
+\lstinputlisting [language=c++] {"code/Graph/planar.cpp"}
 \subsection{MMC}
 \lstinputlisting [language=c++] {"code/Graph/MMC.cpp"}
 \subsection{SomeTheroem}
 \lstinputlisting [language=c++] {"code/Graph/SomeTheroem.cpp"}
+\subsection{Dominator}
+\lstinputlisting [language=c++] {"code/Graph/dominator.cpp"}
 \subsection{DMST}
 \lstinputlisting [language=c++] {"code/Graph/DMST.cpp"}
 \subsection{SCC}
@@ -148,6 +161,8 @@
 \lstinputlisting [language=c++] {"code/String/AC.cpp"}
 \subsection{SuffixAutomata}
 \lstinputlisting [language=c++] {"code/String/suffixAutomata.cpp"}
+\subsection{Palindromic Tree}
+\lstinputlisting [language=c++] {"code/String/palindromic_tree.cpp"}
 \subsection{MinLexicographicalRotate}
 \lstinputlisting [language=c++] {"code/String/MinLexicographicalRotate.cpp"}
 \subsection{ZvaluePalindromes}
@@ -159,12 +174,16 @@
 \section{Math}
 \subsection{MillerRabin}
 \lstinputlisting [language=c++] {"code/math/MillerRabin.cpp"}
+\subsection{Simplex}
+\lstinputlisting [language=c++] {"code/math/simplex.cpp"}
 \subsection{Theorem}
 \lstinputlisting [language=c++] {"code/math/Theorem.cpp"}
 \subsection{Prime}
 \lstinputlisting [language=c++] {"code/math/prime.cpp"}
 \subsection{FFT}
 \lstinputlisting [language=c++] {"code/math/FFT.cpp"}
+\subsection{FWT}
+\lstinputlisting [language=c++] {"code/math/FWT.cpp"}
 \subsection{Extgcd}
 \lstinputlisting [language=c++] {"code/math/extgcd.cpp"}
 \subsection{Pollard’sRho}

@@ -17,4 +17,3 @@
 #define N 300005
 using namespace std;
 typedef long long LL;
-
