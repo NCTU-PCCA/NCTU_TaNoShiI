@@ -1,0 +1,8 @@
+set ts=4
+set sw=4
+set et
+set ai
+set nu
+
+map <F9> :w<LF>:!g++ -O2 -g -std=c++11 -o %.out % && echo "----Start----" && ./%.out<LF>
+imap <F9> <ESC><F9>
