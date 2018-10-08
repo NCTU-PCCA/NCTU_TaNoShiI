@@ -3,7 +3,6 @@
 
 fast linear recurence 
 
-FWT HDU5909 CF662C
 
 
 
