@@ -5,7 +5,7 @@ int k=0;
 int now=0;
 for(int yy=0;yy<2;yy++){
 	for(int i=1;i<n;i++){
-		while(now!=k&&(p[i].y-ans[now-1].y)*(ans[now].x-ans[now-1].x)<=(p[i].x-ans[now-1].x)*(ans[now].y-ans[now-1].y)){
+		while(now!=k&&cross(ans[now].x,p[j].x,ans[now-1].x)<0){
 			now--;
 		} 
 		ans[++now]=p[i];
