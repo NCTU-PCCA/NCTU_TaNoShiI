@@ -22,8 +22,8 @@ head = '''\\title {NCTU\\_TaNoShiI Codebook}
 \\setlength{\\headsep}{5pt}
 \\setlength{\\textheight}{780pt}
 \\usepackage{titlesec}
-\\titlespacing*{\\section} {0pt}{0ex minus 2ex}{0pt}
-\\titlespacing*{\\subsection} {0pt}{0ex minus 2ex}{0pt}
+\\titlespacing*{\\section} {0pt}{0ex minus 4ex}{0pt}
+\\titlespacing*{\\subsection} {0pt}{0ex minus 4ex}{0pt}
 '''
 
 lstset = '''\\lstset {
