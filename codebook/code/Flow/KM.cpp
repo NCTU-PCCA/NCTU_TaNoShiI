@@ -1,63 +1,89 @@
-typedef pair<long long, long long> pll;
 struct KM{
     // Maximum Bipartite Weighted Matching (Perfect Match)
     static const int MXN = 650;
-    static const int INF = 2147483647; // long long
-    int n,match[MXN],vx[MXN],vy[MXN];
-    int edge[MXN][MXN],lx[MXN],ly[MXN],slack[MXN];
+    const int INF = 2147483647; //LL
+    int px[MAXN],py[MAXN],match[MAXN],par[MAXN],n;
+    int g[MAXN][MAXN],lx[MAXN],ly[MAXN],slack_y[MAXN];
     // ^^^^ long long
     void init(int _n){
         n = _n;
         for (int i=0; i<n; i++)
         for (int j=0; j<n; j++)
-        edge[i][j] = 0;
+        g[i][j] = 0;
     }
-    void add_edge(int x, int y, int w){ // long long
-        edge[x][y] = w;
+    void add_edge(int x, int y, int w){ // LL
+        g[x][y] = w;
     }
-    bool DFS(int x){
-        vx[x] = 1;
-        for (int y=0; y<n; y++){
-            if (vy[y]) continue;
-            if (lx[x]+ly[y] > edge[x][y]){
-                slack[y] = min(slack[y], lx[x]+ly[y]-edge[x][y
-                ]);
-                } else {
-                vy[y] = 1;
-                if (match[y] == -1 || DFS(match[y])){
-                    match[y] = x;
-                    return true;
+    void adjust(int y){
+        match[y]=py[y];
+        if(px[match[y]]!=-2)
+            adjust(px[match[y]]);
+    }
+    bool dfs(int x){
+        for(int y=0;y<n;++y){
+            if(py[y]!=-1)continue;
+            int t=lx[x]+ly[y]-g[x][y];//LL
+            if(t==0){
+                py[y]=x;
+                if(match[y]==-1){
+                    adjust(y);
+                    return 1;
                 }
+                if(px[match[y]]!=-1)continue;
+                px[match[y]]=y;
+                if(dfs(match[y]))return 1;
+            }else if(slack_y[y]>t){ 
+                slack_y[y]=t;
+                par[y]=x;
             }
         }
-        return false;
+        return 0;
     }
-    int solve(){
+    int solve(){//LL
         fill(match,match+n,-1);
-        fill(lx,lx+n,-INF);
         fill(ly,ly+n,0);
-        for (int i=0; i<n; i++)
-        for (int j=0; j<n; j++)
-        lx[i] = max(lx[i], edge[i][j]);
-        for (int i=0; i<n; i++){
-            fill(slack,slack+n,INF);
-            while (true){
-                fill(vx,vx+n,0);
-                fill(vy,vy+n,0);
-                if ( DFS(i) ) break;
-                int d = INF; // long long
-                for (int j=0; j<n; j++)
-                if (!vy[j]) d = min(d, slack[j]);
-                for (int j=0; j<n; j++){
-                    if (vx[j]) lx[j] -= d;
-                    if (vy[j]) ly[j] += d;
-                    else slack[j] -= d;
+        for(int i=0;i<n;++i){
+            lx[i]=-INF;
+            for(int y=0;y<n;++y){
+                lx[i]=max(lx[i],g[i][y]);
+            }
+        }
+        for(int i=0;i<n;++i){
+            for(int j=0;j<n;++j)slack_y[j]=INF;
+            fill(px,px+n,-1);
+            fill(py,py+n,-1);
+            px[i]=-2;
+            if(dfs(i))continue;
+            bool flag=1;
+            while(flag){
+                int cut=INF; //LL
+                for(int j=0;j<n;++j)
+                    if(py[j]==-1)cut=min(cut,slack_y[j]);
+                for(int j=0;j<n;++j){
+                    if(px[j]!=-1)lx[j]-=cut;
+                    if(py[j]!=-1)ly[j]+=cut;
+                    else slack_y[j]-=cut;
+                }
+                for(int y=0;y<n;++y){
+                    if(py[y]==-1&&slack_y[y]==0){
+                        py[y]=par[y];
+                        if(match[y]==-1){
+                            adjust(y);
+                            flag=0;
+                            break;
+                        }
+                        px[match[y]]=y;
+                        if(dfs(match[y])){
+                            flag=0;
+                            break;
+                        }
+                    }
                 }
             }
         }
-        int res=0;
-        for (int i=0; i<n; i++)
-        res += edge[match[i]][i];
+        int res=0;//LL
+        for(int i=0;i<n;++i)
+            res+=g[match[i]][i];
         return res;
     }
 }graph;
