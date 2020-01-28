@@ -1,74 +1,78 @@
-\contentsline {section}{\numberline {1}Basic}{1}
-\contentsline {subsection}{\numberline {1.1}Default}{1}
-\contentsline {section}{\numberline {2}DataStructure}{1}
-\contentsline {subsection}{\numberline {2.1}PersistentTreap}{1}
-\contentsline {subsection}{\numberline {2.2}Pbds Kth}{2}
-\contentsline {subsection}{\numberline {2.3}PbdsHeap}{2}
-\contentsline {subsection}{\numberline {2.4}Heavy-LightDecomposition}{2}
-\contentsline {subsection}{\numberline {2.5}KDtree}{3}
-\contentsline {subsection}{\numberline {2.6}LCT}{3}
-\contentsline {section}{\numberline {3}Flow}{4}
-\contentsline {subsection}{\numberline {3.1}Minimunwieghtmatchclique}{4}
-\contentsline {subsection}{\numberline {3.2}CostFlow}{5}
-\contentsline {subsection}{\numberline {3.3}MincutTree}{5}
-\contentsline {subsection}{\numberline {3.4}Dinic}{5}
-\contentsline {subsection}{\numberline {3.5}GeneralGraphmatch}{6}
-\contentsline {subsection}{\numberline {3.6}KM}{6}
-\contentsline {subsection}{\numberline {3.7}SWmincut}{7}
-\contentsline {section}{\numberline {4}Geometry}{7}
-\contentsline {subsection}{\numberline {4.1}Circleintersection}{7}
-\contentsline {subsection}{\numberline {4.2}Fermat's Point}{7}
-\contentsline {subsection}{\numberline {4.3}Pointoperators}{8}
-\contentsline {subsection}{\numberline {4.4}3DConvexHull}{8}
-\contentsline {subsection}{\numberline {4.5}Halfplaneintersection}{8}
-\contentsline {subsection}{\numberline {4.6}ConvexHull}{9}
-\contentsline {subsection}{\numberline {4.7}Triangulation}{9}
-\contentsline {subsection}{\numberline {4.8}K-closet Pair}{10}
-\contentsline {subsection}{\numberline {4.9}MCC}{11}
-\contentsline {subsection}{\numberline {4.10}LineIntersection}{11}
-\contentsline {subsection}{\numberline {4.11}PointToLine}{11}
-\contentsline {section}{\numberline {5}Graph}{11}
-\contentsline {subsection}{\numberline {5.1}Planar}{11}
-\contentsline {subsection}{\numberline {5.2}MMC}{13}
-\contentsline {subsection}{\numberline {5.3}SomeTheroem}{14}
-\contentsline {subsection}{\numberline {5.4}Dominator}{14}
-\contentsline {subsection}{\numberline {5.5}DMST}{14}
-\contentsline {subsection}{\numberline {5.6}SCC}{15}
-\contentsline {subsection}{\numberline {5.7}GeneralGraphMaximunValueMatch}{15}
-\contentsline {subsection}{\numberline {5.8}Stable Marriage}{16}
-\contentsline {subsection}{\numberline {5.9}BCCvertex}{17}
-\contentsline {subsection}{\numberline {5.10}MaxClique}{17}
-\contentsline {subsection}{\numberline {5.11}BCCedge}{18}
-\contentsline {section}{\numberline {6}JAVA}{18}
-\contentsline {subsection}{\numberline {6.1}Big Integer}{18}
-\contentsline {subsection}{\numberline {6.2}Prime}{18}
-\contentsline {section}{\numberline {7}Other}{18}
-\contentsline {subsection}{\numberline {7.1}Dp Optimizer}{18}
-\contentsline {subsection}{\numberline {7.2}Annealing}{19}
-\contentsline {subsection}{\numberline {7.3}DLX}{19}
-\contentsline {subsection}{\numberline {7.4}MahattanMST}{19}
-\contentsline {subsection}{\numberline {7.5}MoOnTree}{20}
-\contentsline {subsection}{\numberline {7.6}Det}{21}
-\contentsline {section}{\numberline {8}String}{21}
-\contentsline {subsection}{\numberline {8.1}AC}{21}
-\contentsline {subsection}{\numberline {8.2}SuffixAutomata}{21}
-\contentsline {subsection}{\numberline {8.3}Palindromic Tree}{22}
-\contentsline {subsection}{\numberline {8.4}MinLexicographicalRotate}{23}
-\contentsline {subsection}{\numberline {8.5}ZvaluePalindromes}{23}
-\contentsline {subsection}{\numberline {8.6}SuffixArray}{23}
-\contentsline {subsection}{\numberline {8.7}Zvalue}{23}
-\contentsline {section}{\numberline {9}Math}{23}
-\contentsline {subsection}{\numberline {9.1}MillerRabin}{23}
-\contentsline {subsection}{\numberline {9.2}Simplex}{23}
-\contentsline {subsection}{\numberline {9.3}Theorem}{24}
-\contentsline {subsection}{\numberline {9.4}Prime}{24}
-\contentsline {subsection}{\numberline {9.5}FFT}{24}
-\contentsline {subsection}{\numberline {9.6}Crt Solve2}{25}
-\contentsline {subsection}{\numberline {9.7}FWT}{25}
-\contentsline {subsection}{\numberline {9.8}Extgcd}{25}
-\contentsline {subsection}{\numberline {9.9}Pollard’sRho}{25}
-\contentsline {section}{\numberline {10}monge}{25}
-\contentsline {section}{\numberline {11}四心}{25}
-\contentsline {section}{\numberline {12}Runge-Kutta}{25}
-\contentsline {section}{\numberline {13}Householder Matrix}{25}
-\contentsline {section}{\numberline {14}Simpson's-rule}{25}
+\contentsline {section}{\numberline {1}Basic}{1}% 
+\contentsline {subsection}{\numberline {1.1}Default}{1}% 
+\contentsline {section}{\numberline {2}DataStructure}{1}% 
+\contentsline {subsection}{\numberline {2.1}PersistentTreap}{1}% 
+\contentsline {subsection}{\numberline {2.2}Pbds Kth}{2}% 
+\contentsline {subsection}{\numberline {2.3}PbdsHeap}{2}% 
+\contentsline {subsection}{\numberline {2.4}KDtree}{2}% 
+\contentsline {subsection}{\numberline {2.5}LCT}{3}% 
+\contentsline {section}{\numberline {3}Flow}{4}% 
+\contentsline {subsection}{\numberline {3.1}Minimunwieghtmatchclique}{4}% 
+\contentsline {subsection}{\numberline {3.2}CostFlow}{4}% 
+\contentsline {subsection}{\numberline {3.3}MincutTree}{4}% 
+\contentsline {subsection}{\numberline {3.4}Dinic}{5}% 
+\contentsline {subsection}{\numberline {3.5}GeneralGraphmatch}{5}% 
+\contentsline {subsection}{\numberline {3.6}KM}{6}% 
+\contentsline {subsection}{\numberline {3.7}SWmincut}{6}% 
+\contentsline {section}{\numberline {4}Geometry}{7}% 
+\contentsline {subsection}{\numberline {4.1}Circleintersection}{7}% 
+\contentsline {subsection}{\numberline {4.2}Fermat's Point}{7}% 
+\contentsline {subsection}{\numberline {4.3}Pointoperators}{7}% 
+\contentsline {subsection}{\numberline {4.4}3DConvexHull}{7}% 
+\contentsline {subsection}{\numberline {4.5}Halfplaneintersection}{7}% 
+\contentsline {subsection}{\numberline {4.6}ConvexHull}{8}% 
+\contentsline {subsection}{\numberline {4.7}Triangulation}{8}% 
+\contentsline {subsection}{\numberline {4.8}Minkowskisum}{9}% 
+\contentsline {subsection}{\numberline {4.9}K-closet Pair}{9}% 
+\contentsline {subsection}{\numberline {4.10}MCC}{10}% 
+\contentsline {subsection}{\numberline {4.11}LineIntersection}{10}% 
+\contentsline {section}{\numberline {5}Graph}{10}% 
+\contentsline {subsection}{\numberline {5.1}Planar}{10}% 
+\contentsline {subsection}{\numberline {5.2}MMC}{12}% 
+\contentsline {subsection}{\numberline {5.3}SomeTheroem}{13}% 
+\contentsline {subsection}{\numberline {5.4}Dominator}{13}% 
+\contentsline {subsection}{\numberline {5.5}DMST}{13}% 
+\contentsline {subsection}{\numberline {5.6}SCC}{14}% 
+\contentsline {subsection}{\numberline {5.7}GeneralGraphMaximunValueMatch}{14}% 
+\contentsline {subsection}{\numberline {5.8}Stable Marriage}{15}% 
+\contentsline {subsection}{\numberline {5.9}BCCvertex}{16}% 
+\contentsline {subsection}{\numberline {5.10}MaxClique}{16}% 
+\contentsline {subsection}{\numberline {5.11}BCCedge}{17}% 
+\contentsline {subsection}{\numberline {5.12}MinimumSteinerTree}{17}% 
+\contentsline {section}{\numberline {6}JAVAAndPy}{17}% 
+\contentsline {subsection}{\numberline {6.1}Big Integer}{17}% 
+\contentsline {subsection}{\numberline {6.2}Fraction Limit}{17}% 
+\contentsline {section}{\numberline {7}Other}{17}% 
+\contentsline {subsection}{\numberline {7.1}Annealing}{17}% 
+\contentsline {subsection}{\numberline {7.2}MahattanMST}{18}% 
+\contentsline {subsection}{\numberline {7.3}MoOnTree}{18}% 
+\contentsline {subsection}{\numberline {7.4}Dp Optimizer}{19}% 
+\contentsline {subsection}{\numberline {7.5}Det}{19}% 
+\contentsline {section}{\numberline {8}String}{19}% 
+\contentsline {subsection}{\numberline {8.1}AC}{19}% 
+\contentsline {subsection}{\numberline {8.2}SuffixAutomata}{20}% 
+\contentsline {subsection}{\numberline {8.3}Palindromic Tree}{21}% 
+\contentsline {subsection}{\numberline {8.4}MinLexicographicalRotate}{21}% 
+\contentsline {subsection}{\numberline {8.5}ZvaluePalindromes}{21}% 
+\contentsline {subsection}{\numberline {8.6}SuffixArray}{21}% 
+\contentsline {subsection}{\numberline {8.7}Zvalue}{22}% 
+\contentsline {section}{\numberline {9}Math}{22}% 
+\contentsline {subsection}{\numberline {9.1}MillerRabin}{22}% 
+\contentsline {subsection}{\numberline {9.2}Simplex}{22}% 
+\contentsline {subsection}{\numberline {9.3}Theorem}{22}% 
+\contentsline {subsection}{\numberline {9.4}Rombeg}{23}% 
+\contentsline {subsection}{\numberline {9.5}SchreierSims}{23}% 
+\contentsline {subsection}{\numberline {9.6}Prime}{23}% 
+\contentsline {subsection}{\numberline {9.7}FFT}{23}% 
+\contentsline {subsection}{\numberline {9.8}NTT}{24}% 
+\contentsline {subsection}{\numberline {9.9}Crt Solve2}{24}% 
+\contentsline {subsection}{\numberline {9.10}DiscreteSqrt}{24}% 
+\contentsline {subsection}{\numberline {9.11}FWT}{24}% 
+\contentsline {subsection}{\numberline {9.12}Faulhaber}{25}% 
+\contentsline {subsection}{\numberline {9.13}Extgcd}{25}% 
+\contentsline {subsection}{\numberline {9.14}Pollard’sRho}{25}% 
+\contentsline {section}{\numberline {10}monge}{25}% 
+\contentsline {section}{\numberline {11}四心}{25}% 
+\contentsline {section}{\numberline {12}Runge-Kutta}{25}% 
+\contentsline {section}{\numberline {13}Householder Matrix}{25}% 
+\contentsline {section}{\numberline {14}Simpson's-rule}{25}% 
