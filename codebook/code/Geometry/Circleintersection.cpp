@@ -3,7 +3,7 @@ vector<pdd> interCircle(pdd o1, double r1, pdd o2,
 double r2) {
     ld d2 = (o1 - o2) * (o1 - o2);
     ld d = sqrt(d2);
-    if (d > r1+r2) return {};
+    if (d > r1+r2||d<abs(r1-r2)) return {};
     pdd u = 0.5*(o1+o2) + ((r2*r2-r1*r1)/(2*d2))*(o1-o2);
     double A = sqrt((r1+r2+d) * (r1-r2+d) * (r1+r2-d) *
     (-r1+r2+d));
