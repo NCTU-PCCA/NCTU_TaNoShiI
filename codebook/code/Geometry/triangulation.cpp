@@ -103,7 +103,6 @@ struct Triangulation {
         while (1) {
             int nx = -1;
             bool is2 = false;
-            National Taiwan University AcThPaUNpPuAmCmBkCfEsFmMdNoLr 19
             for (int i: E[il]) {
                 if (cross(pts[il], pts[i], pts[ir]) < -
                 EPS and
