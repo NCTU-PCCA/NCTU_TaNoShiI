@@ -12,4 +12,8 @@ Bipartite graph
 |Maximun Independent edge|+|Minimun edge cover|=|V|
           ||                      || 
          |V|                     |V|
+
+number of labeled forest n vertices with k tree
+1,2,3,4...k belong different tree
+kn^(n-k-1)
 */
