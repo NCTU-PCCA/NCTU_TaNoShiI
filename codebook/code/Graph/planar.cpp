@@ -1,28 +1,5 @@
 //skydog
-#include <iostream>
-#include <cstdio>
-#include <cstdlib>
-#include <iomanip>
-
-#include <vector>
-#include <cstring>
-#include <string>
-#include <queue>
-#include <deque>
-#include <stack>
-#include <map>
-#include <set>
-
-#include <utility>
-#include <list>
-
-#include <cmath>
-#include <algorithm>
-#include <cassert>
-#include <bitset>
-#include <complex>
-#include <climits>
-#include <functional>
+#include <bits/stdc++.h>
 using namespace std;
 
 typedef long long ll;

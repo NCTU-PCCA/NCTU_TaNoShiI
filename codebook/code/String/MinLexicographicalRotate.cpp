@@ -1,14 +1,16 @@
-string mcp(string s){
-    int n = s.length();
+string min_cyclic_string(string s) {
     s += s;
-    int i=0, j=1;
-    while (i<n && j<n){
-        int k = 0;
-        while (k < n && s[i+k] == s[j+k]) k++;
-        if (s[i+k] <= s[j+k]) j += k+1;
-        else i += k+1;
-        if (i == j) j++;
+    int n = s.size();
+    int i = 0, ans = 0;
+    while (i < n / 2) {
+        ans = i;
+        int j = i + 1, k = i;
+        while (j < n && s[k] <= s[j]) {
+            if (s[k] < s[j]) k = i;
+            else k++;
+            j++;
+        }
+        while (i <= k) i += j - k;
     }
-    int ans = i < n ? i : j;
-    return s.substr(ans, n);
+    return s.substr(ans, n / 2);
 }
