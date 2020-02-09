@@ -12,7 +12,9 @@ Bipartite graph
 |Maximun Independent edge|+|Minimun edge cover|=|V|
           ||                      || 
          |V|                     |V|
-
+DAG dilworth's theorem
+Minimal chain cover = Maximal antichain
+Maximal atichain = Minimal antichain cover
 number of labeled forest n vertices with k tree
 1,2,3,4...k belong different tree
 kn^(n-k-1)
