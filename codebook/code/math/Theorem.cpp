@@ -20,4 +20,8 @@ phi(n,0) = n
 if(n<p_m)phi(n,m)=1
 phi = number of x whose prime factor greater than p_m
 10^11 4118054813
+\item Stirling Numbers(permutation $|P|=n$ with $k$ cycles): \\
+  $S(n,k) = \text{coefficient of }x^k \text{ in } \Pi_{i=0}^{n-1} (x+i)$
+\item Stirling Numbers(Partition $n$ elements into $k$ non-empty set): \\
+  $S(n,k) = \frac{1}{k!} \sum\limits_{j=0}^k (-1)^{k-j} {k \choose j} j^n$
 */
