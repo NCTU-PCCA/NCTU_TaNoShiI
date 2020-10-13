@@ -20,7 +20,7 @@ namespace SchreierSimsAlgorithm{
 	vector<Table> lookup;
 	int fastFilter( const Permu &g, bool addToG = 1 ){
 		n = bkts.size();
-		Permu p;
+		Permu p=g;
 		for( int i = 0 ; i < n ; i ++ ){
 			int res = lookup[ i ][ p[ i ] ];
 			if( res == -1 ){
@@ -47,9 +47,9 @@ namespace SchreierSimsAlgorithm{
 	void solve( const Bucket &gen, int _n ){
 		n = _n, m = gen.size(); // m perm[0..n-1]s
 		{//clear all
-      bkts.clear();
-      bktsInv.clear();
-      lookup.clear();
+      bkts.clear(); bkts.resize(n);
+      bktsInv.clear();bktsInv.resize(n);
+      lookup.clear();lookup.resize(n);
 		}
 		for(int i = 0 ; i < n ; i ++ ){
 			lookup[i].resize(n);
