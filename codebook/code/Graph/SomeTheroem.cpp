@@ -18,4 +18,7 @@ Maximal atichain = Minimal antichain cover
 number of labeled forest n vertices with k tree
 1,2,3,4...k belong different tree
 kn^(n-k-1)
+Erdős–Gallai theorem
+d_1 \geq d_2 ... \geq d_n
+\sum^k_{i=1} d_i \leq k(k-1) + \sum_{i=k+1}^n min(d_i,k)
 */
