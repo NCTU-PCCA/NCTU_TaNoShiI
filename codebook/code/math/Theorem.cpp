@@ -24,4 +24,6 @@ phi = number of x whose prime factor greater than p_m
   $S(n,k) = \text{coefficient of }x^k \text{ in } \Pi_{i=0}^{n-1} (x+i)$
 \item Stirling Numbers(Partition $n$ elements into $k$ non-empty set): \\
   $S(n,k) = \frac{1}{k!} \sum\limits_{j=0}^k (-1)^{k-j} {k \choose j} j^n$
+\item Stirling approximation
+  $n!=\sqrt{2\pi n}(\frac{n}{e})^n(1+\frac{1}{12n}+\frac{1}{288n^2}-\frac{139}{51840n^3})$
 */
