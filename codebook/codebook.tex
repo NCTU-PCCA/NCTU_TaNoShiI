@@ -6,7 +6,7 @@
 \setmonofont{Monaco}
 \usepackage {listings}
 \usepackage {color}
-\usepackage [left=1.0cm, right=1.0cm, top=2.0cm, bottom=0.5cm]{geometry}
+\usepackage [left=0.5cm, right=0.5cm, top=2.0cm, bottom=0.5cm]{geometry}
 \definecolor {mygreen}{rgb}{0,0.6,0}
 \definecolor {mygray}{rgb}{0.5,0.5,0.5}
 \definecolor {mymauve}{rgb}{0.58,0,0.82}
@@ -24,7 +24,7 @@
 
 \lstset {
   backgroundcolor=\color{white},
-  basicstyle=\footnotesize\ttfamily,
+  basicstyle=\scriptsize\ttfamily,
   breakatwhitespace=false,
   breaklines=true,
   captionpos=b,
@@ -65,14 +65,14 @@
 \section{DataStructure}
 \subsection{PersistentTreap}
 \lstinputlisting [language=c++] {"code/DataStructure/persistentTreap.cpp"}
-\subsection{Pbds Kth}
-\lstinputlisting [language=c++] {"code/DataStructure/pbds_kth.cpp"}
-\subsection{PbdsHeap}
-\lstinputlisting [language=c++] {"code/DataStructure/pbdsHeap.cpp"}
+\subsection{PQTree}
+\lstinputlisting [language=c++] {"code/DataStructure/PQTree.cpp"}
 \subsection{KDtree}
 \lstinputlisting [language=c++] {"code/DataStructure/KDtree.cpp"}
 \subsection{LCT}
 \lstinputlisting [language=c++] {"code/DataStructure/LCT.cpp"}
+\subsection{Pbds}
+\lstinputlisting [language=c++] {"code/DataStructure/pbds.cpp"}
 \section{Flow}
 \subsection{Minimunwieghtmatchclique}
 \lstinputlisting [language=c++] {"code/Flow/Minimunwieghtmatchclique.cpp"}
@@ -97,6 +97,10 @@
 \lstinputlisting [language=c++] {"code/Geometry/Pointoperators.cpp"}
 \subsection{3DConvexHull}
 \lstinputlisting [language=c++] {"code/Geometry/3DConvexHull.cpp"}
+\subsection{Count Lattices}
+\lstinputlisting [language=c++] {"code/Geometry/count_lattices.cpp"}
+\subsection{Commontagnet}
+\lstinputlisting [language=c++] {"code/Geometry/commontagnet.cpp"}
 \subsection{Halfplaneintersection}
 \lstinputlisting [language=c++] {"code/Geometry/Halfplaneintersection.cpp"}
 \subsection{ConvexHull}
@@ -109,9 +113,13 @@
 \lstinputlisting [language=c++] {"code/Geometry/K-closet Pair.cpp"}
 \subsection{MCC}
 \lstinputlisting [language=c++] {"code/Geometry/MCC.cpp"}
+\subsection{3Dto2D}
+\lstinputlisting [language=c++] {"code/Geometry/3Dto2D.cpp"}
 \subsection{LineIntersection}
 \lstinputlisting [language=c++] {"code/Geometry/lineIntersection.cpp"}
 \section{Graph}
+\subsection{KSP}
+\lstinputlisting [language=c++] {"code/Graph/KSP.cpp"}
 \subsection{Planar}
 \lstinputlisting [language=c++] {"code/Graph/planar.cpp"}
 \subsection{MMC}
@@ -142,12 +150,14 @@
 \subsection{Fraction Limit}
 \lstinputlisting [language=python] {"code/JAVAAndPy/fraction_limit.py"}
 \section{Other}
+\subsection{Fraction Binary}
+\lstinputlisting [language=c++] {"code/Other/fraction_binary.cpp"}
 \subsection{Annealing}
 \lstinputlisting [language=c++] {"code/Other/annealing.cpp"}
 \subsection{MahattanMST}
 \lstinputlisting [language=c++] {"code/Other/MahattanMST.cpp"}
-\subsection{MoOnTree}
-\lstinputlisting [language=c++] {"code/Other/MoOnTree.cpp"}
+\subsection{Dynamic Convex}
+\lstinputlisting [language=c++] {"code/Other/dynamic_convex.cpp"}
 \subsection{Dp Optimizer}
 \lstinputlisting [language=c++] {"code/Other/dp_optimizer.cpp"}
 \subsection{Det}
@@ -161,6 +171,8 @@
 \lstinputlisting [language=c++] {"code/String/palindromic_tree.cpp"}
 \subsection{MinLexicographicalRotate}
 \lstinputlisting [language=c++] {"code/String/MinLexicographicalRotate.cpp"}
+\subsection{CLCS}
+\lstinputlisting [language=c++] {"code/String/CLCS.cpp"}
 \subsection{ZvaluePalindromes}
 \lstinputlisting [language=c++] {"code/String/ZvaluePalindromes.cpp"}
 \subsection{SuffixArray}
@@ -178,8 +190,6 @@
 \lstinputlisting [language=c++] {"code/math/Rombeg.cpp"}
 \subsection{SchreierSims}
 \lstinputlisting [language=c++] {"code/math/SchreierSims.cpp"}
-\subsection{Prime}
-\lstinputlisting [language=c++] {"code/math/prime.cpp"}
 \subsection{FFT}
 \lstinputlisting [language=c++] {"code/math/FFT.cpp"}
 \subsection{NTT}
@@ -190,6 +200,8 @@
 \lstinputlisting [language=c++] {"code/math/DiscreteSqrt.cpp"}
 \subsection{FWT}
 \lstinputlisting [language=c++] {"code/math/FWT.cpp"}
+\subsection{Floor Sum}
+\lstinputlisting [language=c++] {"code/math/floor_sum.cpp"}
 \subsection{Faulhaber}
 \lstinputlisting [language=c++] {"code/math/faulhaber.cpp"}
 \subsection{Extgcd}

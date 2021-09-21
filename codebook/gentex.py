@@ -9,7 +9,7 @@ head = '''\\title {NCTU\\_TaNoShiI Codebook}
 \\setmonofont{Monaco}
 \\usepackage {listings}
 \\usepackage {color}
-\\usepackage [left=1.0cm, right=1.0cm, top=2.0cm, bottom=0.5cm]{geometry}
+\\usepackage [left=0.5cm, right=0.5cm, top=2.0cm, bottom=0.5cm]{geometry}
 \\definecolor {mygreen}{rgb}{0,0.6,0}
 \\definecolor {mygray}{rgb}{0.5,0.5,0.5}
 \\definecolor {mymauve}{rgb}{0.58,0,0.82}
@@ -28,7 +28,7 @@ head = '''\\title {NCTU\\_TaNoShiI Codebook}
 
 lstset = '''\\lstset {
   backgroundcolor=\\color{white},
-  basicstyle=\\footnotesize\\ttfamily,
+  basicstyle=\\scriptsize\\ttfamily,
   breakatwhitespace=false,
   breaklines=true,
   captionpos=b,
